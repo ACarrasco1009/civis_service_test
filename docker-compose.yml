@@ -1,0 +1,6 @@
+web:
+  build: ./web
+  ports:
+   - "3838:3838"
+  volumes:
+   - .:/code
